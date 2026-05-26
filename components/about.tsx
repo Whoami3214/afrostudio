@@ -27,16 +27,16 @@ export function About() {
           {/* Content */}
           <div className="lg:pl-8">
             <span className="text-accent text-sm uppercase tracking-[0.3em] mb-4 block">
-              Sobre Mim
+              Sobre Nós
             </span>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl mb-8 leading-tight">
               Mais de 4 anos a criar memórias inesquecíveis
             </h2>
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                A Afro Estúdio é uma empresa criativa especializada em design gráfico, fotografia e produção audiovisual,
+                A AfroStudio é uma empresa criativa especializada em design gráfico, fotografia e produção audiovisual,
                 focada em transformar ideias em experiências visuais únicas e memoráveis.
-                Nascida da paixão pela arte e pela comunicação visual, a Afro Estúdio combina criatividade,
+                Nascida da paixão pela arte e pela comunicação visual, a AfroStudio combina criatividade,
                 técnica e inovação para entregar resultados com identidade e impacto.
               </p>
               <p>
