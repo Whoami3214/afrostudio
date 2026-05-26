@@ -14,19 +14,19 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Marco Silva | Fotógrafo & Videógrafo Premium',
+  title: 'Josué Mendes | Fotógrafo & Videógrafo Premium',
   description: 'Fotografia e vídeo profissional para casamentos, eventos corporativos, festas e publicidade. Capturamos momentos que contam histórias com qualidade cinematográfica.',
   keywords: ['fotógrafo', 'videógrafo', 'casamentos', 'eventos corporativos', 'publicidade', 'aftermovies', 'Portugal'],
-  authors: [{ name: 'Marco Silva' }],
+  authors: [{ name: 'Josué Mendes' }],
   openGraph: {
-    title: 'Marco Silva | Fotógrafo & Videógrafo Premium',
+    title: 'Josué Mendes | Fotógrafo & Videógrafo Premium',
     description: 'Fotografia e vídeo profissional para casamentos, eventos corporativos, festas e publicidade.',
     type: 'website',
     locale: 'pt_PT',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Marco Silva | Fotógrafo & Videógrafo Premium',
+    title: 'Josué Mendes | Fotógrafo & Videógrafo Premium',
     description: 'Fotografia e vídeo profissional para casamentos, eventos corporativos, festas e publicidade.',
   },
   robots: {
