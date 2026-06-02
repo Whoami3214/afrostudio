@@ -25,7 +25,7 @@ const portfolioItems = [
     category: "weddings",
     title: "Ana & Pedro",
     subtitle: "Casamento em Luanda",
-    image: "c13.jpg",
+    image: "casamento1.jpg",
   },
   {
     id: 3,
@@ -151,7 +151,7 @@ export function Portfolio() {
         {/* View All Button */}
         <div className="text-center mt-12">
           <a
-            href="https://heyzine.com/flip-book/f2fa421587.html"
+            href="https://heyzine.com/flip-book/598c6582a2.html"
             className="inline-flex px-8 py-4 border border-foreground text-sm uppercase tracking-widest hover:bg-foreground hover:text-background transition-all duration-300"
           >
             Ver Portfólio Completo

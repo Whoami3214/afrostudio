@@ -17,7 +17,7 @@ const services = [
   },
   {
     icon: Film,
-    title: "Aftermovies",
+    title: "Branding Visual",
     description: "Resumos emocionantes dos seus eventos, editados com música e narrativa que capturam a essência do momento.",
     features: ["Highlight Videos", "Trailers Promocionais", "Same Day Edit", "Versões para Redes Sociais"],
   },
