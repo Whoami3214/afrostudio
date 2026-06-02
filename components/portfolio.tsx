@@ -18,7 +18,7 @@ const portfolioItems = [
     category: "corporate",
     title: "Actividade +KWANZA",
     subtitle: "Evento Corporativo",
-    image: "sem.jpeg",
+    image: "sem.jpg",
   },
   {
     id: 2,
