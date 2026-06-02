@@ -31,12 +31,12 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="#hero" className="font-serif text-3xl tracking-wide inline-block mb-4">
-              Josué Mendes
+              AfroStudio
             </Link>
             <p className="text-muted-foreground leading-relaxed max-w-md mb-6">
-              Fotógrafo, Designer Gráfico e Film Maker profissional especializado em capturar 
-              momentos únicos com qualidade cinematográfica. Baseado em Luanda, 
-              disponível para eventos em todo o mundo.
+              A AFROSTUDIO é uma Agência de Marketing, dedicada a impulsionar o crescimento de negócios por meio de estratégias criativas e orientadas para resultados.
+              Atuamos na gestão de redes sociais,
+              marketing digital, publicidade, branding e desenvolvimento de soluções de comunicação que fortalecem a presença das marcas no mercado.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
@@ -60,7 +60,7 @@ export function Footer() {
             <ul className="space-y-3">
               {footerLinks.services.map((link) => (
                 <li key={link.name}>
-                  <Link 
+                  <Link
                     href={link.href}
                     className="text-muted-foreground hover:text-foreground transition-colors"
                   >
@@ -77,7 +77,7 @@ export function Footer() {
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
-                  <Link 
+                  <Link
                     href={link.href}
                     className="text-muted-foreground hover:text-foreground transition-colors"
                   >
