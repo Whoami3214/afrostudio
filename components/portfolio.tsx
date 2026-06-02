@@ -18,7 +18,7 @@ const portfolioItems = [
     category: "corporate",
     title: "Actividade +KWANZA",
     subtitle: "Evento Corporativo",
-    image: "camacho3.jpeg",
+    image: "sem.jpeg",
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const portfolioItems = [
     category: "parties",
     title: "Festa de Aniversário",
     subtitle: "Festa Privada",
-    image: "_MG_4222.jpg",
+    image: "_MG_1259.jpg",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const portfolioItems = [
     category: "weddings",
     title: "Sofia & Miguel",
     subtitle: "Casamento no Huambo",
-    image: "c26.jpg",
+    image: "_MG_2279.jpg",
   },
   {
     id: 6,
