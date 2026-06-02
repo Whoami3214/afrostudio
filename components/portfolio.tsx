@@ -25,7 +25,7 @@ const portfolioItems = [
     category: "weddings",
     title: "Ana & Pedro",
     subtitle: "Casamento em Luanda",
-    image: "casamento1.jpg",
+    image: "casamento1.jpeg",
   },
   {
     id: 3,
