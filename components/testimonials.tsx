@@ -27,7 +27,7 @@ const testimonials = [
     role: "Diretor de Marketing",
     event: "Campanha Publicitária",
     image: "c4.jpg",
-    text: "Trabalhar com o Josué na nossa campanha foi uma experiência incrível. Ele entendeu perfeitamente a visão da marca e criou conteúdo visual que elevou toda a nossa comunicação.",
+    text: "Trabalhar com a AfroStudio na nossa campanha foi uma experiência incrível. Ele entendeu perfeitamente a visão da marca e criou conteúdo visual que elevou toda a nossa comunicação.",
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ const testimonials = [
     role: "Aniversariante",
     event: "Festa de 50 Anos",
     image: "_MG_4224.jpg",
-    text: "A festa dos meus 50 anos ficou eternizada de forma espetacular. O aftermovie que o Josué criou emocionou todos os convidados. Recomendo sem qualquer hesitação.",
+    text: "A festa dos meus 50 anos ficou eternizada de forma espetacular. O aftermovie que a AfroStudio criou emocionou todos os convidados. Recomendo sem qualquer hesitação.",
   },
 ]
 

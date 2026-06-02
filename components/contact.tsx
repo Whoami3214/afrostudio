@@ -197,7 +197,7 @@ export function Contact() {
                   <Mail size={20} className="text-accent mt-1" />
                   <div>
                     <p className="text-sm text-muted-foreground uppercase tracking-wider mb-1">Email</p>
-                    <a href="mailto:afrosstudio32@gmail.com" className="hover:text-accent transition-colors">
+                    <a href="mailto:waiame3214@gmail.com" className="hover:text-accent transition-colors">
                       afrosstudio32@gmail.com
                     </a>
                   </div>
