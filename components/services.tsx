@@ -17,7 +17,7 @@ const services = [
   },
   {
     icon: Film,
-    title: "Branding Visual",
+    title: "Filmmaking",
     description: "Resumos emocionantes dos seus eventos, editados com música e narrativa que capturam a essência do momento.",
     features: ["Highlight Videos", "Trailers Promocionais", "Same Day Edit", "Versões para Redes Sociais"],
   },
