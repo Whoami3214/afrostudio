@@ -255,7 +255,7 @@ export function Contact() {
                   <span>WhatsApp</span>
                 </a>
                 <a
-                  href="https://instagram.com/josue_mendes_photograph"
+                  href="https://www.instagram.com/afrostudio2?igsh=MTZpcjZ3bzJucHd6OA=="
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 px-6 py-4 bg-[#E4405F]/10 border border-[#E4405F]/30 hover:bg-[#E4405F]/20 transition-colors"

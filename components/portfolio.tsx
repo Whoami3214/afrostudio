@@ -32,7 +32,7 @@ const portfolioItems = [
     category: "parties",
     title: "Festa de Aniversário",
     subtitle: "Festa Privada",
-    image: "_MG_1259.jpg",
+    image: "_MG_4222.jpg",
   },
   {
     id: 4,
@@ -68,7 +68,7 @@ const portfolioItems = [
     category: "parties",
     title: "Festa de Aniversário",
     subtitle: "Festa Privada",
-    image: "_MG_4224.jpg",
+    image: "_MG_4223.jpg",
   },
 ]
 
