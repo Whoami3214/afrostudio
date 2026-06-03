@@ -2,6 +2,11 @@
 
 import { useState } from "react"
 import { Send, Phone, Mail, MapPin, Instagram, MessageCircle } from "lucide-react"
+import emailjs from "@emailjs/browser"
+
+const EMAILJS_SERVICE_ID = "service_zgvkfhg"
+const EMAILJS_TEMPLATE_ID = "template_5qjfym3"
+const EMAILJS_PUBLIC_KEY = "PRn7GdmUz_tHuq2MR"
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -14,6 +19,7 @@ export function Contact() {
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [error, setError] = useState("")
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value })
@@ -22,11 +28,30 @@ export function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500))
-    setIsSubmitting(false)
-    setIsSubmitted(true)
-    setFormData({ name: "", email: "", phone: "", service: "", eventDate: "", message: "" })
+    setError("")
+
+    try {
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          phone: formData.phone || "Não fornecido",
+          service: formData.service,
+          event_date: formData.eventDate || "Não especificada",
+          message: formData.message,
+        },
+        EMAILJS_PUBLIC_KEY
+      )
+      setIsSubmitted(true)
+      setFormData({ name: "", email: "", phone: "", service: "", eventDate: "", message: "" })
+    } catch (err) {
+      setError("Erro ao enviar mensagem. Tente novamente ou contacte-nos diretamente.")
+      console.error("EmailJS error:", err)
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -106,7 +131,7 @@ export function Contact() {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 bg-card border border-border focus:border-accent outline-none transition-colors"
-                      placeholder="+351 912 345 678"
+                      placeholder="+244 932 153 880"
                     />
                   </div>
                   <div>
@@ -161,6 +186,10 @@ export function Contact() {
                   />
                 </div>
 
+                {error && (
+                  <p className="text-red-500 text-sm">{error}</p>
+                )}
+
                 <button
                   type="submit"
                   disabled={isSubmitting}
@@ -197,7 +226,7 @@ export function Contact() {
                   <Mail size={20} className="text-accent mt-1" />
                   <div>
                     <p className="text-sm text-muted-foreground uppercase tracking-wider mb-1">Email</p>
-                    <a href="mailto:waiame3214@gmail.com" className="hover:text-accent transition-colors">
+                    <a href="mailto:afrosstudio32@gmail.com" className="hover:text-accent transition-colors">
                       afrosstudio32@gmail.com
                     </a>
                   </div>
