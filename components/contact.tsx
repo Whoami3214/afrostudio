@@ -67,7 +67,7 @@ export function Contact() {
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Entre em contacto para discutirmos o seu projeto. 
-            Respondo a todos os pedidos em menos de 24 horas.
+            Respondemos a todos os pedidos em menos de 24 horas.
           </p>
         </div>
 
@@ -81,7 +81,7 @@ export function Contact() {
                 </div>
                 <h3 className="font-serif text-2xl mb-4">Mensagem Enviada!</h3>
                 <p className="text-muted-foreground">
-                  Obrigado pelo seu contacto. Entrarei em contacto consigo em breve.
+                  Obrigado pelo seu contacto. Entraremos em contacto consigo em breve.
                 </p>
               </div>
             ) : (
