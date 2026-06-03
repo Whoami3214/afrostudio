@@ -79,7 +79,7 @@ export function Contact() {
                 <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-accent/20 flex items-center justify-center">
                   <Send size={24} className="text-accent" />
                 </div>
-                <h3 className="font-serif text-2xl mb-4">Mensagem Enviada!</h3>
+                <h3 className="font-serif text-2xl mb-4">Mensagem Enviada Com Sucesso!</h3>
                 <p className="text-muted-foreground">
                   Obrigado pelo seu contacto. Entraremos em contacto consigo em breve.
                 </p>
