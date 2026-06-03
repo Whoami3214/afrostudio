@@ -16,7 +16,7 @@ const portfolioItems = [
   {
     id: 1,
     category: "corporate",
-    title: "Actividade +KWANZA",
+    title: "Actividade Corporativa",
     subtitle: "Evento Corporativo",
     image: "sem.jpg",
   },
@@ -52,7 +52,7 @@ const portfolioItems = [
   {
     id: 6,
     category: "corporate",
-    title: "Actividade +KWANZA",
+    title: "Actividade Corporativa",
     subtitle: "Evento Corporativo",
     image: "camacho2.jpeg ",
   },
@@ -68,7 +68,7 @@ const portfolioItems = [
     category: "parties",
     title: "Festa de Aniversário",
     subtitle: "Festa Privada",
-    image: "_MG_4223.jpg",
+    image: "_MG_4224.jpg",
   },
 ]
 
