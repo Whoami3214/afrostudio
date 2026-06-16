@@ -146,7 +146,7 @@ export function Contact() {
                       onChange={handleChange}
                       className="w-full px-4 py-3 bg-card border border-border focus:border-accent outline-none transition-colors appearance-none cursor-pointer"
                     >
-                      <option value="">Selecione um serviço</option>
+                      <option value="">Qual Serviço Procura?</option>
                       <option value="casamento">Casamento</option>
                       <option value="corporativo">Evento Corporativo</option>
                       <option value="festa">Festas</option>
