@@ -149,8 +149,8 @@ export function Contact() {
                       <option value="">Selecione um serviço</option>
                       <option value="casamento">Casamento</option>
                       <option value="corporativo">Evento Corporativo</option>
-                      <option value="festa">Festa Privada</option>
-                      <option value="publicidade">Publicidade</option>
+                      <option value="festa">Festas</option>
+                      <option value="publicidade">Sessão Fotográfica</option>
                       <option value="outro">Outro</option>
                     </select>
                   </div>
