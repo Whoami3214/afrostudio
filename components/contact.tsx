@@ -248,7 +248,7 @@ export function Contact() {
               <h3 className="font-serif text-xl mb-6">Contacto Rápido</h3>
               <div className="flex flex-col gap-4">
                 <a
-                  href="https://wa.me/244932153880?text=Olá! Gostaria de saber mais sobre os vossos serviços."
+                  href="https://wa.me/244945172351?text=Olá! Gostaria de saber mais sobre os vossos serviços."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 px-6 py-4 bg-[#25D366]/10 border border-[#25D366]/30 hover:bg-[#25D366]/20 transition-colors"
