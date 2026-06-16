@@ -23,7 +23,7 @@ export function Hero() {
           loop
           playsInline
           className="w-full h-full object-cover"
-          poster="Afro3.jpeg"
+          poster="logoAfro.jpeg"
         >
           <source
             src="https://cdn.coverr.co/videos/coverr-couple-dancing-at-wedding-1638/1080p.mp4"
