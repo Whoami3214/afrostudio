@@ -149,8 +149,10 @@ export function Contact() {
                       <option value="">Qual Serviço Procura?</option>
                       <option value="casamento">Casamento</option>
                       <option value="corporativo">Evento Corporativo</option>
-                      <option value="festa">Festas</option>
+                      <option value="corporativo">Evento Social</option>
                       <option value="publicidade">Sessão Fotográfica</option>
+                      <option value="publicidade">Produção Audiovisual</option>
+                      <option value="festa">Conteúdo Para Empresas e Marcas</option>
                       <option value="outro">Outro</option>
                     </select>
                   </div>
